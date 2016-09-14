@@ -1,8 +1,8 @@
-/*Marine*/
+/*Marine HEADER*/
 header {
 	display: flex;
 	flex-direction: column;
-	height: 600px;
+	height: 100%;
 	width: 100%;
 	background-image: url(https://hd.unsplash.com/photo-1460400355256-e87506dcec4f);
 	background-size: 100%;
@@ -12,8 +12,6 @@ header {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	width: auto;
-	height: 100px;
 	list-style-type: none;
 	font-size: 25px;
 	color: white;
@@ -28,4 +26,13 @@ header {
 .titre h5 a {
 	color: white;
 	font-size: 30px;
+	border: solid white 3px;
+}
+
+/*Marine IMAGES*/
+
+.photos div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
