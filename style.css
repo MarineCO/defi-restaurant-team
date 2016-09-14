@@ -120,7 +120,10 @@ div {
 .services{
 	background: url(https://hd.unsplash.com/photo-1438216983993-cdcd7dea84ce)
 }
-
+.corps_service {
+	display: flex;
+	flex-direction: row;
+}
 
 .bloc-contact{
 	text-align: right;
