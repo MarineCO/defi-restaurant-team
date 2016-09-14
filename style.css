@@ -1,5 +1,8 @@
 
 /*Marine HEADER*/
+body {
+	background-color: grey;
+}
 header {
 	display: flex;
 	flex-direction: column;
@@ -33,10 +36,20 @@ header {
 
 /*Marine IMAGES*/
 
-.photos div {
+.photos {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+}
+.photos div {
+	width: 25%;
+}
+div {
+	margin: 40px;
+	text-align: center;
+}
+.photos h3 {
+	color: white;
 }
 
 /*Axel SERVICES*/
