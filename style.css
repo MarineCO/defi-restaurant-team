@@ -1,0 +1,16 @@
+/*Marine*/
+header {
+	display: flex;
+	flex-direction: column;
+	border: black solid 3px;
+}
+.bouton_menu ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style-type: none;
+	border: red solid 3px;
+}
+.titre {
+	border: green solid 3px;
+}
