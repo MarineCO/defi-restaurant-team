@@ -1,3 +1,4 @@
+
 /*Marine HEADER*/
 header {
 	display: flex;
@@ -29,10 +30,47 @@ header {
 	border: solid white 3px;
 }
 
+
 /*Marine IMAGES*/
 
 .photos div {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+}
+
+/*Axel SERVICES*/
+.titre_services{
+	text-align: center;
+	color: pink;
+	text-transform: uppercase; 
+}
+
+.en_tete p{
+	text-align: center;
+}
+
+.icone_1 h3{
+	text-transform: uppercase;
+	color: pink;
+	font-size: 14px;
+
+}
+
+.icone_2 h3{
+	text-transform: uppercase; 
+	color: pink;
+	font-size: 14px;
+
+}
+
+.icone_3 h3{
+	text-transform: uppercase;
+	color: pink;
+	font-size: 14px;
+}
+
+.services{
+	background: url(https://hd.unsplash.com/photo-1438216983993-cdcd7dea84ce)
+
 }
