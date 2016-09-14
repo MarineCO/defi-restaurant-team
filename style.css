@@ -1,0 +1,35 @@
+/*dylan*/
+menu{
+	margin-left: -1%;
+	background-color: #FFFFF3;
+	
+}
+
+.categorie h1{
+	text-align: center;
+	color: #F68657;
+
+}
+
+.categorie p{
+	text-align: center;
+
+}
+
+.categorie li{
+	border-style: solid;
+	border-radius: 5px;
+	margin-right: 20px;
+	list-style: none;
+	font-size: 20px;
+
+}
+
+.categorie ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 2%;
+	text-align: center;
+}
+
