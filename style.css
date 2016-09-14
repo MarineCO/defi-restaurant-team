@@ -1,7 +1,9 @@
+<<<<<<< HEAD
+/*Axel*/
 .titre_services{
 	text-align: center;
 	color: pink;
-	text-transform: uppercase;
+	text-transform: uppercase; 
 }
 
 .en_tete p{
@@ -36,3 +38,36 @@
 }
 
  
+=======
+/*Marine*/
+header {
+	display: flex;
+	flex-direction: column;
+	height: 600px;
+	width: 100%;
+	background-image: url(https://hd.unsplash.com/photo-1460400355256-e87506dcec4f);
+	background-size: 100%;
+}
+.bouton_menu ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: auto;
+	height: 100px;
+	list-style-type: none;
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+}
+.titre {
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	color: white;
+}
+.titre h5 a {
+	color: white;
+	font-size: 30px;
+}
+>>>>>>> 37c295aa4aea576da385168284f6c17d60ff11bf
