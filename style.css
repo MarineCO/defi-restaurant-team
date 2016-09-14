@@ -33,6 +33,40 @@ header {
 	border: solid white 3px;
 }
 
+/*dylan*/
+menu{
+	margin-left: -1%;
+	background-color: #FFFFF3;
+	
+}
+
+.categorie h1{
+	text-align: center;
+	color: #F68657;
+
+}
+
+.categorie p{
+	text-align: center;
+
+}
+
+.categorie li{
+	border-style: solid;
+	border-radius: 5px;
+	margin-right: 20px;
+	list-style: none;
+	font-size: 20px;
+
+}
+
+.categorie ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 2%;
+	text-align: center;
+}
 
 /*Marine IMAGES*/
 
@@ -85,5 +119,50 @@ div {
 
 .services{
 	background: url(https://hd.unsplash.com/photo-1438216983993-cdcd7dea84ce)
+}
+
+
+.bloc-contact{
+	text-align: right;
 
 }
+ footer h1{
+	color: #DC143C;
+	text-align: center;
+}
+ .footer{
+ 	display: flex;
+ 	flex-direction: column;
+ }
+
+ .little{
+	width: 500px;
+	height: 50px;
+	border-style: solid;
+	margin-left: 50px;
+	padding-top: 25px;
+	padding-left: 25px;
+	color: #DCDCDC;
+}
+.big{
+	width: 500px;
+	height: 100px;
+	border-style: solid;
+	margin-left: 50px;
+	padding-top: 25px;
+	padding-left: 25px;
+	color: #DCDCDC;
+}
+.buttonsend{
+	background-color: #DC143C; <!--rose>
+	border: none;
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-left: 50px;
+
+}	
+
