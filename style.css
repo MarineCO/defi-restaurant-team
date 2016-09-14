@@ -2,15 +2,30 @@
 header {
 	display: flex;
 	flex-direction: column;
-	border: black solid 3px;
+	height: 600px;
+	width: 100%;
+	background-image: url(https://hd.unsplash.com/photo-1460400355256-e87506dcec4f);
+	background-size: 100%;
 }
 .bouton_menu ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	align-items: center;
+	width: auto;
+	height: 100px;
 	list-style-type: none;
-	border: red solid 3px;
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
 }
 .titre {
-	border: green solid 3px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	color: white;
+}
+.titre h5 a {
+	color: white;
+	font-size: 30px;
 }
