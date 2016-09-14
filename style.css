@@ -1,8 +1,78 @@
-.titre{
-	text-align: center;
-	margin-top: 80px;
-	
+/*Marine HEADER*/
+header {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	background-image: url(https://hd.unsplash.com/photo-1460400355256-e87506dcec4f);
+	background-size: 100%;
 }
+.bouton_menu ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+}
+.titre {
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	color: white;
+}
+.titre h5 a {
+	color: white;
+	font-size: 30px;
+	border: solid white 3px;
+}
+
+
+/*Marine IMAGES*/
+
+.photos div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+/*Axel SERVICES*/
+.titre_services{
+	text-align: center;
+	color: pink;
+	text-transform: uppercase; 
+}
+
+.en_tete p{
+	text-align: center;
+}
+
+.icone_1 h3{
+	text-transform: uppercase;
+	color: pink;
+	font-size: 14px;
+
+}
+
+.icone_2 h3{
+	text-transform: uppercase; 
+	color: pink;
+	font-size: 14px;
+
+}
+
+.icone_3 h3{
+	text-transform: uppercase;
+	color: pink;
+	font-size: 14px;
+}
+
+.services{
+	background: url(https://hd.unsplash.com/photo-1438216983993-cdcd7dea84ce)
+}
+
 
 .bloc-contact{
 	text-align: right;
@@ -17,13 +87,24 @@
  	flex-direction: column;
  }
 
- .formulair{
-	width: 300px;
-	height: 100px;
-	border-style: solid ;
+ .little{
+	width: 500px;
+	height: 50px;
+	border-style: solid;
 	margin-left: 50px;
+	padding-top: 25px;
+	padding-left: 25px;
+	color: #DCDCDC;
 }
-
+.big{
+	width: 500px;
+	height: 100px;
+	border-style: solid;
+	margin-left: 50px;
+	padding-top: 25px;
+	padding-left: 25px;
+	color: #DCDCDC;
+}
 .buttonsend{
 	background-color: #DC143C; <!--rose>
 	border: none;
@@ -33,4 +114,7 @@
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
-}
+	margin-left: 50px;
+
+}	
+
